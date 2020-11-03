@@ -1,0 +1,62 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Lora, serif;
+  text-align: center;
+}
+#main {
+  margin: auto;
+  padding: 15px;
+  background-color: #e7c78d91;
+}
+#title {
+  text-align: center;
+}
+h1 {
+  font-size: 3em;
+}
+#img-div {
+  text-align: center;
+  background-color: #ddddddd8;
+  padding: 10px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.zivotopis {
+  padding-left: 5%;
+}
+.dila {
+  text-align: center;
+  font-size: 1.2em;
+}
+ul {
+  margin: auto;
+  max-width: 500px;
+  text-align: left;
+}
+
+li {
+  margin: auto;
+}
+
+footer {
+  font-family: Lora;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 20px 5%;
+}
+
+@media (max-width: 425px) {
+  #img-caption {
+    font-size: 80%;
+  }
+}
